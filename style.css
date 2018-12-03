@@ -1,0 +1,24 @@
+.map, .game {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	background-color: transparent;
+}
+
+body {
+	background: #000033;
+}
+
+#background {
+	background: url(graphics/background.png);
+	background-size: cover;
+	image-rendering: pixelated;
+}
+
+@font-face {
+    font-family: 'pixelart';
+    src: url('VCR_OSD_MONO_1.001.ttf');
+}
